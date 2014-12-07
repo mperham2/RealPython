@@ -15,6 +15,10 @@ def hello_world():
 	return "Hello, world. From flask"
 
 #dynamic route
+@app.route("/test")
+def search():
+    return "Hello from search"
+
 @app.route("/test/<search_query>")
 def search(search_query):
     return search_query
