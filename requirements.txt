@@ -4,7 +4,7 @@ Flask==0.10.1
 Flask-WTF==0.6
 GnuPGInterface==0.3.2
 Jinja2==2.7.2
-Mako==0.9.1
+Mako==1.2.2
 MarkupSafe==0.18
 PAM==0.4.2
 Pillow==2.3.0
